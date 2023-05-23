@@ -2,7 +2,7 @@
 
 ![homes_stock_photo](images/1000_F_222955315_ClkdpTfEaeXuODlPaXhEm628dAmdKLsN.jpg)
 
-#### Author: Steve Githinji
+#### Author: [Steve Githinji](linkedin.com/in/steve-githinji-10ba0114a)
 
 ## Overview
 
@@ -11,7 +11,7 @@ The project sought to assess whether we can accurately predict which customers a
 
 ## Business Problem
 
-Identifying customers who are likely to churn in advance can help banks implement targeted retention strategies, thereby reducing customer attrition and maximizing profitability. Machine learning techniques can play a crucial role in predicting customer churn, enabling banks to take proactive measures to retain valuable customers. The ultimate goal is to enable the bank to prioritize retention efforts and develop tailored strategies to retain customers at risk of churn. The key stakeholders in this project are the Bank Executives, Marketing and Retention Team and Customer Service Representives. The study seeks to answer the question: "Can we accurately predict which customers are likely to churn based on their demographics and account information?"
+Identifying customers who are likely to churn in advance can help banks implement targeted retention strategies, thereby reducing customer attrition and maximizing profitability. Machine learning techniques can play a crucial role in predicting customer churn, enabling banks to take proactive measures to retain valuable customers. The ultimate goal is to enable the bank to prioritize retention efforts and develop tailored strategies to retain customers at risk of churn. The key stakeholders in this project are the Bank Executives, Marketing and Retention Team and Customer Service Representives. The study seeks "To accurately predict which customers are likely to churn based on their age, location and account information"
 
 
 ## Data
@@ -29,7 +29,9 @@ Data preprocessing involved OneHotEncoding of categoriacl columns and scaling nu
 
 ![precision_and_accuracy](images/precsion&accuracy.png)
 ![rmse](images/modelrmse.png)
-**`Model 4`** was selected as the `final model`. It is an ensemble algorithm that used a `Random Forest Classifier`. It had the highest combined accuracy and precision and the least amount of overfitting. Model 4 had an accuracy of about 85% meaning that out of all the predictions this model made, 85% were correct. It had a precision of 87.5% meaning that out of  all the times the model said a customer churned, the customer in question actually churned 87.5% of the time.
+
+**`Model 4`** was selected as the `final model`. It is an ensemble algorithm that used a `Random Forest Classifier`. It had the highest combined accuracy and precision and the least amount of overfitting. Model 4 had an accuracy of about 85% meaning that out of all the predictions this model made, 85% were correct. It had a precision of 87.5% meaning that out of  all the times the model said a customer churned, the customer in question actually churned 87.5% of the time. Below is the final model's confusion matrix:
+![confusion_matrix](images/confusion matrix.png)
 
 
 ## Conclusions
